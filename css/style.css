@@ -62,12 +62,12 @@ nav ul li a{
 
 .banner-section{
 	width: 100%;
-	margin: 0 auto;
+	margin:  auto;
 	background: #d49c02f0;
 }
 .container-2{
 	width: 90%;
-	margin:0 auto;
+	margin: auto;
 	background: #d49c02f0;
 }
 .art{
@@ -75,6 +75,7 @@ nav ul li a{
 	color:white;
 	margin: 0 auto;
 	padding: 100px 20px;
+	background: #d49c02f0;
 }
 .art time{
 	color:white;
