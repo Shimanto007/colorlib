@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body{
+	width:100%;
 	margin:0;
 	padding:0;
 	font-family: 'Lato', sans-serif;
@@ -12,14 +13,17 @@ img{
 	max-height: 100%;
 }
 header{
-	margin: auto;
+	margin: 0 auto;
+	width:100%;
+	background: #FAB700;
 }
 .container-1{
-	width:  100%;
+	width:  90%;
     margin: 0 auto;
     overflow:  hidden;
     background: #FAB700;
 }
+
 .logo{
 	width:20%;
 	float:left;
@@ -28,18 +32,18 @@ header{
 .logo img{
 	max-width:100%;
 	display:block; 
-	padding-left: 90px;
+	
 }
 nav{
-	width:70%;
+	width:50%;
 	float:right;
 	padding: 25px 20px;
+	margin: 0 auto;
 }
 nav ul{
 	margin:0;
 	padding: 0;
 	text-align: right; 
-	padding-right: 80px;
 }
 nav ul li{
 	list-style-type: none;
@@ -53,18 +57,20 @@ nav ul li a{
 }
 
 
-.banner-section{}
-.container-2{
+.banner-section{
 	width: 100%;
-	
+	margin: 0 auto;
 	background: #d49c02f0;
+}
+.container-2{
+	width: 90%;
 	margin:0 auto;
 }
 .art{
 	text-align: left;
-	padding: 70px;
 	color:white;
-	padding-left: 105px;
+	margin: 0 auto;
+	padding: 100px 20px;
 }
 .art time{
 	color:white;
@@ -97,10 +103,12 @@ nav ul li a{
 }
 .off p{}
 
-.content-div1{}
+.content-div1{
+	width:100%;
+}
 .content-box1{
-	width: 1200px;
-	margin:auto;
+	width: 90%;
+	margin:0 auto;
 }
 .content1{
 	width:33.33%;
@@ -143,7 +151,7 @@ nav ul li a{
 }
 
 .feature{
-	width: 1335px;
+	width: 100%;
 	float:left;
 }
 .feat{
@@ -157,10 +165,11 @@ nav ul li a{
 .feat p{}
 
 .feature-des{
+	width:100%;
 	margin:auto;
 }
 .content-box2{
-	width: 1200px;
+	width: 90%;
 	margin:auto;
 	overflow: hidden;
 }
@@ -195,7 +204,7 @@ nav ul li a{
 	text-align: justify;
 }
 .content-box3{
-	width: 1200px;
+	width: 90%;
 	margin:auto;
 	overflow: hidden;
 }
@@ -231,27 +240,29 @@ nav ul li a{
 }
 
 .details{
-	margin:auto;
+	margin:0 auto;
+	width: 100%;
+	background: #f9b700;
 }
 .total{
-	width:  100%;
+	width:  90%;
     margin: 0 auto;
     overflow:  hidden;
-    background: #f9b700;
 }
 .det{
 	width:100%;
-	padding: 25px 30px;
+	
 }
 }
 .det ul{
+	width:100%;
 	margin: 0;
 
 }
 .det ul li{
+	width:19%;
 	list-style-type: none;
 	display:inline-block;
-	padding: 50px;
 	
 }
 .det ul li h1{
@@ -275,20 +286,25 @@ nav ul li a{
 }
 
 .photo-gallery{
+	width: 100%
 	margin:auto;
 }
+.photo-gallery img{
+	width: 100%;
+	height: 260px;
+}
 .photo-box1{
-	width: 1200px;
+	width: 90%;
 	margin:auto;
 	overflow: hidden;
 }
 .photo-box2{
-	width: 1200px;
+	width: 90%;
 	margin:auto;
 	overflow: hidden;
 }
 .photo-box3{
-	width: 1200px;
+	width: 90%;
 	margin:auto;
 	overflow: hidden;
 }
@@ -304,9 +320,7 @@ nav ul li a{
 	padding:20px;
 	box-sizing: border-box;
 }
-.photo2 img{
-	height:260px;
-}
+
 .photo3{
 	width:33.33%;
 	float:left;
@@ -331,9 +345,7 @@ nav ul li a{
 	padding:20px;
 	box-sizing: border-box;
 }
-.photo6 img{
-	height:261px;
-}
+
 .photo7{
 	width:60%;
 	float:left;
@@ -345,7 +357,7 @@ nav ul li a{
 }
 
 .blog-det{
-	width: 1335px;
+	width: 100%;
 }
 .blog{
 	text-align: center;
@@ -359,9 +371,10 @@ nav ul li a{
 
 .blog-gal{
 	margin:auto;
+	width: 100%
 }
 .blog-box{
-	width: 1200px;
+	width: 90%;
 	margin:auto;
 	overflow: hidden;
 }
@@ -371,7 +384,9 @@ nav ul li a{
 	padding:20px;
 	box-sizing: border-box;
 }
-.blog1 img{}
+.blog1 img{
+	width: 100%;
+}
 .blog1 time{
 	background: black;
 	color:white;
@@ -384,11 +399,13 @@ nav ul li a{
 .blog1 p{}
 
 footer{
+	width:100%;
 	background: #000729;
 	padding:30px 0;
+	margin:0 auto;
 }
 .container{
-	width:  100%;
+	width:  90%;
     margin: 0 auto;
     overflow:  hidden;
 }
@@ -396,7 +413,6 @@ footer{
 	width: 33.33%;
 	float: left;
 	padding:30px;
-	padding-left: 95px;
 	box-sizing: border-box;
 }
 .footer-menu h1{
@@ -428,15 +444,16 @@ footer{
 .news i{
 	background: #FFC107;
 	position: absolute;
-	padding: 7px 8px;
+	padding: 8px 8px;
 }
 
 .social-menu{
 	width: 33.33%;
-	float: left;
+	float: right;
 	padding:30px;
-	padding-left: 180px;
+	padding-left: 280px;
 	box-sizing: border-box;
+	margin:0 auto;
 }
 .social-menu h1{
 	color:white;
@@ -453,4 +470,3 @@ footer{
 	color:gray;
 	margin-left: 10px;
 }
-
